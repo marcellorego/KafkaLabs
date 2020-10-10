@@ -1,0 +1,3 @@
+br/com/fourmart/stream/windowing/WordCountApplication.java
+ br.com.fourmart.stream.windowing.WordCountApplication
+ br.com.fourmart.stream.windowing.WordCountApplication$1

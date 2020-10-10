@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+dependencies {
+
+//    compile "org.apache.avro:avro:${apacheAvroVersion}"
+//    compile "io.confluent:kafka-streams-avro-serde:${confluentVersion}"
+//    compile "io.confluent:kafka-avro-serializer:${confluentVersion}"
+
+    compile "io.confluent:common-utils:${confluentVersion}"
+    compile "org.apache.kafka:kafka-streams:${kafkaVersion}"
+    compile "org.apache.kafka:kafka-clients:${kafkaVersion}"
+}
